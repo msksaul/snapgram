@@ -135,6 +135,7 @@ const PostForm = ({ post, action }: PostFormProps) => {
           <Button 
             type="button" 
             className='shad-button_dark_4'
+            onClick={() => navigate(-1)}
           >
             Cancel
           </Button>
