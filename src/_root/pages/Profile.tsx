@@ -84,7 +84,7 @@ const Profile = () => {
               </Link>
             </div>
             <div className={`${user.id === id && "hidden"}`}>
-              <Button type="button" className="shad-button_primary px-8">
+              <Button type="button" className="shad-button_primary px-8 cursor-default">
                 Follow
               </Button>
             </div>
@@ -137,4 +137,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default Profile
